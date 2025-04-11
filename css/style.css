@@ -4,3 +4,23 @@ body {
     color: black;
     background-color: #f1f1f1;
 }
+
+.center_block {
+    display: block;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    color: #ffff00;
+    text-align: center;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: calc(25% - 100px);
+}
+
+/* Свойство vertical-align в CSS выравнивает текстовые элементы по вертикали 
+относительно друг друга. Оно применяется к строчным элементам и к ячейкам таблиц. */
+.text {
+    display: inline;
+    line-height: 100px;
+}
